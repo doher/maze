@@ -13,11 +13,11 @@ A walk-ability of a cell is determined by a boolean value: false means a wall, t
   console.log(maze[topLeft.y][topLeft.x]); // false (top-left cell isn't walkable)
 ```
 
-One point at the edge is the entry point. In the example it's { x: 0, y: 3 } (line #4, column #1).
+One point at the edge is the entry point. In the example it's `{ x: 0, y: 3 }` (line #4, column #1).
 
 Any other point at the edge that can be reached by walking from the entry point, can be called an exit point.
 
-The example maze has one exit at { x: 4, y: 0 }.
+The example maze has one exit at `{ x: 4, y: 0 }`.
 
 Creating a path from the entry point to the exit point is the test task.
 
